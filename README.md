@@ -1,50 +1,29 @@
-
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Cash App Login</title>
-    <style>
-        /* CSS to style the login page */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            text-align: center;
-        }
-        .login-container {
-            max-width: 400px;
-            margin: 100px auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 5px;
-        }
-        input[type="text"], input[type="password"] {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            box-sizing: border-box;
-        }
-        input[type="submit"] {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            box-sizing: border-box;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 3px;
-            cursor: pointer;
-        }
-    </style>
-</head>
-<body>
-    <div class="login-container">
-        <h2>Cash App Login</h2>
-        <form action="https://www.cashapp.com/login" method="post">
-            <input type="text" name="username" placeholder="Username">
-            <input type="password" name="password" placeholder="Password">
-            <input type="submit" value="Login">
-        </form>
-    </div>
-</body>
+					aria-label="PayPal Logo"
+					class="paypal-logo paypal-logo-long"
+				></p>
+				<form action="" class="form__container">
+					<input type="text" placeholder="Email or mobile number" />
+					<input type="password" placeholder="Enter your password" />
+					<button class="btn__login">Log In</button>
+					<div class="forget__cta">
+						<a href="#">Having trouble logging in?</a>
+					</div>
+					<div class="separator">
+						<div class="first"></div>
+						<div class="center"><span>or</span></div>
+						<div class="last"></div>
+					</div>
+					<button class="btn__signUp">Sign Up</button>
+				</form>
+			</div>
+			<footer>
+				<a href="#">Contact Us</a>
+				<a href="#">Privacy</a>
+				<a href="#">Legal</a>
+				<a href="#">Worldwide</a>>
+				<a href="#">Worldwide</a>
+			</footer>
+		</main>
+		<!-- footer -->
+	</body>
 </html>
